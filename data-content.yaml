@@ -1,0 +1,74 @@
+film:
+  title: "Film"
+  summary: "Editing, post-production, and narrative work across features, series, and short-form projects."
+  images:
+    - walt-disney-pictures.png
+    - a24.png
+    - Apple_TV.png
+    - Netflix.png
+    - NBCUniversal.jpeg
+    - Sony-Pictures-Entertainment.png
+    - Searchlight_Pictures.jpeg
+    - Annapurna_Pictures.png
+    - amc_networks.jpg
+    - skydance.png
+  film_samples:
+    - role: "VFX Editor"
+      films:
+        - title: "Marty Supreme"
+          link: "https://www.martysuprememovie.com/"
+
+        - title: "Gemini Man"
+          link: "https://skydance.com/film/gemini-man/"
+    
+        - title: "Mary Poppins Returns"
+          link: "https://movies.disney.com/mary-poppins-returns"
+    - role: "Additional Editor"
+      films:
+        - title: "Cha Cha Real Smooth"
+          link: "https://tv.apple.com/us/movie/cha-cha-real-smooth/umc.cmc.6loo9fah7vwj2zpp7ehactlpd"
+    
+        - title: "Burnt"
+          link: "https://johnwellsproductions.com/burnt"
+    - role: "Assistant Editor"
+      films: 
+        - title: "Nightbitch"
+          link: "https://www.searchlightpictures.com/nightbitch"
+
+
+      
+
+writing:
+  title: "Writing"
+  summary: "Scripts, essays, and narrative work in print and online."
+  images:
+    - american-bystander-logo-REDSTROKE.pink5.webp
+    - pic-horizontal-black-400x180.png
+    - unnamed-1-700x434.png
+  writing_samples:
+    - publisher: "McSweeney’s Internet Tendency"
+      pieces:
+        - title: "Alas, Poor Yorick! I Knew Him, and He Would Be Fine with Me Touching His Skull Right Now"
+          link: "https://www.mcsweeneys.net/articles/alas-poor-yorick-i-knew-him-and-he-would-be-fine-with-me-touching-his-skull-right-now"
+    - publisher: "The American Bystander"
+      pieces:
+        - title: "Kathy, add some water to the soup; we’ve got company."
+          link: "https://online.americanbystander.org/kathy-add-some-water-to-the-soup-weve-got-company/"
+        - title: "True facts about fake wrestling."
+          link: "https://online.americanbystander.org/true-facts-about-fake-wrestling/"
+    - publisher: "Points In Case"
+      pieces:
+        - title: "Reviews of the Mysterious Glowing Orb"
+          link: "https://www.pointsincase.com/lists/reviews-of-the-mysterious-glowing-orb"
+        - title: "7 Reasons You Should Check Out the Science Lab in Josh’s Basement"
+          link: "https://www.pointsincase.com/lists/7-reasons-you-should-check-out-the-science-lab-in-joshs-basement"
+
+art:
+  title: "Art"
+  summary: "Visual design, concept art, and motion work."
+  images: []
+
+projects:
+  title: "Projects"
+  summary: "Code, experiments, and interactive builds."
+  images: []

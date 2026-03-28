@@ -1,10 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Corey</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corey S. Johnsen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Corey S. Johnsen</h1>
-  <p>This site is live.</p>
+  <header class="header">Corey S. Johnsen</header>
+
+  <main class="stage">
+    <div class="panels">
+      <div class="panel film">
+        <span>Film</span>
+      </div>
+      <div class="panel writing">
+        <span>Writing</span>
+      </div>
+      <div class="panel art">
+        <span>Art</span>
+      </div>
+      <div class="panel projects">
+        <span>Projects</span>
+      </div>
+      <div class="panel portfolio">
+        <div class="portfolio-inner">
+          <div class="portfolio-square"></div>
+          <div class="portfolio-rects">
+            <div class="portfolio-rect black"></div>
+            <div class="portfolio-rect grey"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hover-panel" id="hoverPanel">
+      <div class="hover-panel-content" id="hoverFooter">Hover a panel</div>
+    </div>
+  </main>
+
+  <footer class="footer">© Corey S. Johnsen</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
