@@ -148,16 +148,20 @@ body {
 
 .content-images {
   display: flex;
-  gap: 25px;
-  padding: 20px;
+  gap: 6px;
+  padding: 20px 5%;
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 
 .content-images img {
-  height: 100px;
+  height: 5vw;
+  max-height: 72px;
+  min-height: 32px;
+  width: auto;
   object-fit: contain;
   opacity: 0.9;
   transition: opacity 0.3s ease;
